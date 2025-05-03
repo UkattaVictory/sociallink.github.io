@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+   box-sizing: border-box;
+}
+:root{
+    --Green: hsl(75, 94%, 57%);
+--white: hsl(0, 0%, 100%);
+--Grey-lightest: hsl(0, 0%, 20%);
+--Grey-lighter: hsl(0, 0%, 12%);
+--font-family:"Inter", sans-serif;
+}
+body{
+    background-color: black;
+    font-family: var(--font-family);
+    width: 100%;   
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: var(--Grey-lighter);
+    width: 400px;
+    border-radius: 15px;
+    margin: 150px 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+}
+img{
+   width: 90px;
+   height: auto;
+   border-radius: 50%;
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+   
+}
+.introduction h2{
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    padding-bottom:10px;
+}
+.introduction h3{
+    font-size: 14px;
+    color: var(--Green);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.more-info p{
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.accounts button{
+    background-color: var(--Grey-lightest);
+    color: var(--white);
+    border: 1px solid var(--Grey-lightest);
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.accounts button.active{
+    background-color: var(--Green);
+    color: black;
+}
+.footer{
+    color: var(--white);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight:300;
+}
+
+@media(max-width:700px){
+   .container{
+    width: 330px;
+   }
+    .accounts button.active{
+        background-color: var(--Grey-lightest);
+        color: var(--white);
+    } 
+    .more-info p{
+        font-size: 13px;
+    }
+    .footer{
+        font-size:13px;
+    }
+    .accounts button{
+        width: 250px;
+    }
+     
+}
+
+
+

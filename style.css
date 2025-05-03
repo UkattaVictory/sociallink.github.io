@@ -71,10 +71,10 @@ img{
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
-    transition: 0.3s background-color ease-in-out
+    transition: 0.3s background-color ease-in-out;
 }
 .accounts button:hover{
-    background-color: var(--Green) ;
+    background-color: var(--Green);
 }
     
 .accounts button.active{

@@ -73,11 +73,9 @@ img{
     font-weight: 600;
     transition: background-color 0.3s ease-in-out;
 }
-.accounts button:hover{
-    background-color: var(--Green);
-}
+
     
-.accounts button.active{
+.accounts button.active, .accounts button:hover{
     background-color: var(--Green);
     color: black;
 }

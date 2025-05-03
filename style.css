@@ -86,7 +86,7 @@ img{
 @media(max-width:700px){
    .container{
     width: 330px;
-       margin: 30px 0;
+       margin: 50px 0;
    }
     .accounts button.active{
         background-color: var(--Grey-lightest);
